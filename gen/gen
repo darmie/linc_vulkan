@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Author: Damilare Akinlaja
+
+haxe --run Main vulkan 1 1

@@ -1,0 +1,392 @@
+
+
+
+@:include("linc_vulkan.h")
+@:native("VkInstance")
+@:structAccess
+extern class VkInstance {
+    static inline function init():VkInstance {
+        return untyped __cpp__('VkInstance');
+    }
+}
+
+
+
+@:include("linc_vulkan.h")
+@:native("VkPhysicalDevice")
+@:structAccess
+extern class VkPhysicalDevice {
+    static inline function init():VkPhysicalDevice {
+        return untyped __cpp__('VkPhysicalDevice');
+    }
+}
+
+@:include("linc_vulkan.h")
+@:native("VkDevice")
+@:structAccess
+extern class VkDevice {
+    static inline function init():VkDevice {
+        return untyped __cpp__('VkDevice');
+    }
+}
+
+
+@:include("linc_vulkan.h")
+@:native("VkQueue")
+@:structAccess
+extern class VkQueue {
+    static inline function init():VkQueue {
+        return untyped __cpp__('VkQueue');
+    }
+}
+
+@:include("linc_vulkan.h")
+@:native("VkSemaphore")
+@:structAccess
+extern class VkSemaphore {
+    static inline function init():VkSemaphore {
+        return untyped __cpp__('VkSemaphore');
+    }
+}
+
+@:include("linc_vulkan.h")
+@:native("VkCommandBuffer")
+@:structAccess
+extern class VkCommandBuffer {
+    static inline function init():VkCommandBuffer {
+        return untyped __cpp__('VkCommandBuffer');
+    }
+}
+
+@:include("linc_vulkan.h")
+@:native("VkFence")
+@:structAccess
+extern class VkFence {
+    static inline function init():VkFence {
+        return untyped __cpp__('VkFence');
+    }
+}
+
+@:include("linc_vulkan.h")
+@:native("VkDeviceMemory")
+@:structAccess
+extern class VkDeviceMemory {
+    static inline function init():VkDeviceMemory {
+        return untyped __cpp__('VkDeviceMemory');
+    }
+}
+
+@:include("linc_vulkan.h")
+@:native("VkBuffer")
+@:structAccess
+extern class VkBuffer {
+    static inline function init():VkBuffer {
+        return untyped __cpp__('VkBuffer');
+    }
+}
+
+@:include("linc_vulkan.h")
+@:native("VkImage")
+@:structAccess
+extern class VkImage {
+    static inline function init():VkImage {
+        return untyped __cpp__('VkImage');
+    }
+}
+
+@:include("linc_vulkan.h")
+@:native("VkEvent")
+@:structAccess
+extern class VkEvent {
+    static inline function init():VkEvent {
+        return untyped __cpp__('VkEvent');
+    }
+}
+
+
+@:include("linc_vulkan.h")
+@:native("VkQueryPool")
+@:structAccess
+extern class VkQueryPool {
+    static inline function init():VkQueryPool {
+        return untyped __cpp__('VkQueryPool');
+    }
+}
+
+@:include("linc_vulkan.h")
+@:native("VkBufferView")
+@:structAccess
+extern class VkBufferView {
+    static inline function init():VkBufferView {
+        return untyped __cpp__('VkBufferView');
+    }
+}
+
+
+@:include("linc_vulkan.h")
+@:native("VkImageView")
+@:structAccess
+extern class VkImageView {
+    static inline function init():VkImageView {
+        return untyped __cpp__('VkImageView');
+    }
+}
+
+@:include("linc_vulkan.h")
+@:native("VkShaderModule")
+@:structAccess
+extern class VkShaderModule {
+    static inline function init():VkShaderModule{
+        return untyped __cpp__('VkShaderModule');
+    }
+}
+
+
+@:include("linc_vulkan.h")
+@:native("VkPipelineCache")
+@:structAccess
+extern class VkPipelineCache {
+    static inline function init():VkPipelineCache{
+        return untyped __cpp__('VkPipelineCache');
+    }
+}
+
+
+@:include("linc_vulkan.h")
+@:native("VkPipelineLayout")
+@:structAccess
+extern class VkPipelineLayout {
+    static inline function init():VkPipelineLayout{
+        return untyped __cpp__('VkPipelineLayout');
+    }
+}
+
+@:include("linc_vulkan.h")
+@:native("VkRenderPass")
+@:structAccess
+extern class VkRenderPass {
+    static inline function init():VkRenderPass{
+        return untyped __cpp__('VkRenderPass');
+    }
+}
+
+@:include("linc_vulkan.h")
+@:native("VkPipeline")
+@:structAccess
+extern class VkPipeline {
+    static inline function init():VkPipeline{
+        return untyped __cpp__('VkPipeline');
+    }
+}
+
+@:include("linc_vulkan.h")
+@:native("VkDescriptorSetLayout")
+@:structAccess
+extern class VkDescriptorSetLayout {
+    static inline function init():VkDescriptorSetLayout{
+        return untyped __cpp__('VkDescriptorSetLayout');
+    }
+}
+
+
+@:include("linc_vulkan.h")
+@:native("VkSampler")
+@:structAccess
+extern class VkSampler {
+    static inline function init():VkSampler{
+        return untyped __cpp__('VkSampler');
+    }
+}
+
+@:include("linc_vulkan.h")
+@:native("VkDescriptorPool")
+@:structAccess
+extern class VkDescriptorPool {
+    static inline function init():VkDescriptorPool{
+        return untyped __cpp__('VkDescriptorPool');
+    }
+}
+
+@:include("linc_vulkan.h")
+@:native("VkDescriptorSet")
+@:structAccess
+extern class VkDescriptorSet {
+    static inline function init():VkDescriptorSet{
+        return untyped __cpp__('VkDescriptorSet');
+    }
+}
+
+@:include("linc_vulkan.h")
+@:native("VkFramebuffer")
+@:structAccess
+extern class VkFramebuffer {
+    static inline function init():VkFramebuffer{
+        return untyped __cpp__('VkFramebuffer');
+    }
+}
+
+@:include("linc_vulkan.h")
+@:native("VkCommandPool")
+@:structAccess
+extern class VkCommandPool {
+    static inline function init():VkCommandPool{
+        return untyped __cpp__('VkCommandPool');
+    }
+}
+
+@:include("linc_vulkan.h")
+@:native("VkObjectTableNVX")
+@:structAccess
+extern class VkObjectTableNVX {
+    static inline function init():VkObjectTableNVX{
+        return untyped __cpp__('VkObjectTableNVX');
+    }
+}
+
+@:include("linc_vulkan.h")
+@:native("VkIndirectCommandsLayoutNVX")
+@:structAccess
+extern class VkIndirectCommandsLayoutNVX {
+    static inline function init():VkIndirectCommandsLayoutNVX{
+        return untyped __cpp__('VkIndirectCommandsLayoutNVX');
+    }
+}
+
+
+@:include("linc_vulkan.h")
+@:native("VkDescriptorUpdateTemplate")
+@:structAccess
+extern class VkDescriptorUpdateTemplate {
+    static inline function init():VkDescriptorUpdateTemplate{
+        return untyped __cpp__('VkDescriptorUpdateTemplate');
+    }
+}
+
+@:include("linc_vulkan.h")
+@:native("VkDescriptorUpdateTemplateKHR")
+@:structAccess
+extern class VkDescriptorUpdateTemplateKHR {
+    static inline function init():VkDescriptorUpdateTemplateKHR{
+        return untyped __cpp__('VkDescriptorUpdateTemplateKHR');
+    }
+}
+
+
+@:include("linc_vulkan.h")
+@:native("VkSamplerYcbcrConversion")
+@:structAccess
+extern class VkSamplerYcbcrConversion {
+    static inline function init():VkSamplerYcbcrConversion{
+        return untyped __cpp__('VkSamplerYcbcrConversion');
+    }
+}
+
+@:include("linc_vulkan.h")
+@:native("VkSamplerYcbcrConversionKHR")
+@:structAccess
+extern class VkSamplerYcbcrConversionKHR {
+    static inline function init():VkSamplerYcbcrConversionKHR{
+        return untyped __cpp__('VkSamplerYcbcrConversionKHR');
+    }
+}
+
+
+@:include("linc_vulkan.h")
+@:native("VkValidationCacheEXT")
+@:structAccess
+extern class VkValidationCacheEXT {
+    static inline function init():VkValidationCacheEXT{
+        return untyped __cpp__('VkValidationCacheEXT');
+    }
+}       
+
+@:include("linc_vulkan.h")
+@:native("VkAccelerationStructureNV")
+@:structAccess
+extern class VkAccelerationStructureNV {
+    static inline function init():VkAccelerationStructureNV{
+        return untyped __cpp__('VkAccelerationStructureNV');
+    }
+} 
+
+
+   
+@:include("linc_vulkan.h")
+@:native("VkDisplayKHR")
+@:structAccess
+extern class VkDisplayKHR {
+    static inline function init():VkDisplayKHR{
+        return untyped __cpp__('VkDisplayKHR');
+    }
+}       
+        
+
+@:include("linc_vulkan.h")
+@:native("VkDisplayModeKHR")
+@:structAccess
+extern class VkDisplayModeKHR {
+    static inline function init():VkDisplayModeKHR{
+        return untyped __cpp__('VkDisplayModeKHR');
+    }
+}        
+
+
+@:include("linc_vulkan.h")
+@:native("VkSurfaceKHR")
+@:structAccess
+extern class VkSurfaceKHR {
+    static inline function init():VkSurfaceKHR{
+        return untyped __cpp__('VkSurfaceKHR');
+    }
+}
+
+@:include("linc_vulkan.h")
+@:native("VkSwapchainKHR")
+@:structAccess
+extern class VkSwapchainKHR {
+    static inline function init():VkSwapchainKHR{
+        return untyped __cpp__('VkSwapchainKHR');
+    }
+}
+
+@:include("linc_vulkan.h")
+@:native("VkDebugReportCallbackEXT")
+@:structAccess
+extern class VkDebugReportCallbackEXT {
+    static inline function init():VkDebugReportCallbackEXT{
+        return untyped __cpp__('VkDebugReportCallbackEXT');
+    }
+}
+
+
+@:include("linc_vulkan.h")
+@:native("VkDebugUtilsMessengerEXT")
+@:structAccess
+extern class VkDebugUtilsMessengerEXT {
+    static inline function init():VkDebugUtilsMessengerEXT{
+        return untyped __cpp__('VkDebugUtilsMessengerEXT');
+    }
+}      
+        
+
+
+typedef PFN_vkVoidFunction = cpp.Callable<Void->Void>;
+
+typedef PFN_vkAllocationFunction = cpp.Callable<haxe.io.BytesData -> Int -> Int -> VkSystemAllocationScope -> cpp.RawPointer<haxe.io.BytesData>>;
+
+typedef PFN_vkReallocationFunction = cpp.Callable<haxe.io.BytesData->haxe.io.BytesData->Int->Int->VkSystemAllocationScope -> cpp.RawPointer<haxe.io.BytesData>>;
+
+typedef PFN_vkFreeFunction = cpp.Callable<haxe.io.BytesData->haxe.io.BytesData->Void>;
+
+typedef PFN_vkInternalAllocationNotification = cpp.Callable<haxe.io.BytesData->Int->VkInternalAllocationType->VkSystemAllocationScope->Void>;
+
+typedef PFN_vkInternalFreeNotification = cpp.Callable<haxe.io.BytesData->Int->VkInternalAllocationType->VkSystemAllocationScope->Void>;
+
+typedef PFN_vkDebugReportCallbackEXT = cpp.Callable<VkDebugReportFlagsEXT->VkDebugReportObjectTypeEXT->cpp.UInt64->Int->cpp.UInt32->cpp.ConstCharStar->cpp.ConstCharStar->haxe.io.BytesData->VkBool32>;
+
+
+typedef PFN_vkDebugUtilsMessengerCallbackEXT = cpp.Callable<VkDebugUtilsMessageSeverityFlagBitsEXT->VkDebugUtilsMessageTypeFlagsEXT->cpp.Pointer<haxe.io.BytesData>->haxe.io.BytesData->VkBool32>;
+
+
+        
+        
