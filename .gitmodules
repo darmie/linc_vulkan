@@ -1,3 +1,6 @@
 [submodule "lib"]
 	path = lib
 	url = https://github.com/KhronosGroup/Vulkan-Headers
+[submodule "lib/vulkan"]
+	path = lib/vulkan
+	url = https://github.com/KhronosGroup/Vulkan-Headers
