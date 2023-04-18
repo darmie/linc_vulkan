@@ -7,7 +7,7 @@
         <!-- add files and flags to the haxe c++ build -->
 
         <compilerflag value='-I${LINC_EMPTY_PATH}/linc/'/>
-        <compilerflag value='-I${LINC_EMPTY_PATH}/lib/include'/>
+        <compilerflag value='-I${LINC_EMPTY_PATH}/lib/vulkan/include'/>
         <!-- <compilerflag value='-DEMPTY_EXAMPLE_DEFINE_FOR_THE_CPP_CODE'/> -->
 
         <file name='${LINC_EMPTY_PATH}linc/linc_vulkan.cpp' />
